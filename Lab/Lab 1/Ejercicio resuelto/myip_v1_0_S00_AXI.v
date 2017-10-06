@@ -1,7 +1,7 @@
 
 `timescale 1 ns / 1 ps
 
-	module cip_gpio_rgb_v1_0_S00_AXI #
+	module myip_v1_0_S00_AXI #
 	(
 		// Users to add parameters here
 		parameter integer CUENTA = 20000000,
@@ -113,8 +113,8 @@
 	reg [C_S_AXI_DATA_WIDTH-1:0]	 reg_data_out;
 	integer	 byte_index;
 	
-	reg [31:0] contador,
-	reg enable,
+	reg [31:0] contador;
+	reg enable;
 
 	// I/O Connections assignments
 
