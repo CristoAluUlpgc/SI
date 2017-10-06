@@ -4,7 +4,7 @@
 	module myip_v1_0 #
 	(
 		// Users to add parameters here
-
+        parameter integer CUENTA = 20000000,
 		// User parameters ends
 		// Do not modify the parameters beyond this line
 
